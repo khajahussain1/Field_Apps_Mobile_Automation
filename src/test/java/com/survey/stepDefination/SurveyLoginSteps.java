@@ -3,7 +3,7 @@ package com.survey.stepDefination;
 import com.survey.Pages.LoginPage;
 import io.cucumber.java.en.Given;
 
-import static java.sql.DriverManager.getDriver;
+import static com.survey.Utilities.AppiumDriverInitialization.getDriver;
 
 
 public class SurveyLoginSteps {

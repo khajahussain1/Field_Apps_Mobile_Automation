@@ -8,7 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class AppiumDriverIntialization {
+public class AppiumDriverInitialization {
 
     private static final ThreadLocal<AndroidDriver> driverThreadLocal = new ThreadLocal<>();
     public static Scenario scenario;
@@ -45,7 +45,7 @@ public class AppiumDriverIntialization {
             return driverThreadLocal.get();
         }
 
-        public static AndroidDriver gerDriver(){
+        public static AndroidDriver getDriver(){
             AndroidDriver driver = driverThreadLocal.get();
             if(driver == null){
                 throw new IllegalStateException();
@@ -87,8 +87,8 @@ public class AppiumDriverIntialization {
             //Timeout capabilities
             caps.setCapability("appium:newCommandTimeout", ConfigReader.getNewCommandTimeout());
             caps.setCapability("appium:adbExecTimeout", 60000);
-            caps.setCapability("appium:uiautomator2ServerLaunchTimeout", ConfigReader.getIntProperty(60000));
-            caps.setCapability("appium:uiautomator2ServerInstallTimeout", ConfigReader.getIntProperty(60000));
+            caps.setCapability("appium:uiautomator2ServerLaunchTimeout", ConfigReader.getIntProperty("timeout.uiautomator2.launch", 60000));
+            caps.setCapability("appium:uiautomator2ServerInstallTimeout", ConfigReader.getIntProperty("timeout.uiautomator2.install", 60000));
 
             try {
                 return new AndroidDriver(new URL(ConfigReader.getAppiumServerurl()), caps);

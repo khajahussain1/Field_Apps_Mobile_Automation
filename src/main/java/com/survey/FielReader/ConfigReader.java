@@ -4,7 +4,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import static jdk.internal.net.http.common.Utils.getBooleanProperty;
 
 public class ConfigReader {
 private static final String CONFIG_FILE_PATH = "src/main/resources/survey_config.properties";
@@ -28,6 +27,18 @@ public static String getProperty(String key){
     return value;
 
 }
+
+public static int getIntProperty(String key, int defaultValue)
+{
+    String value = properties.getProperty(key);
+    return value!=null?Integer.parseInt(value) : defaultValue;
+}
+
+    public static boolean getBooleanProperty(String key, Boolean defaultValue)
+    {
+        String value = properties.getProperty(key);
+        return value!=null?Boolean.parseBoolean(value) : defaultValue;
+    }
 
 public static String getAndroidAppFilePath(){
     return properties.getProperty("android.survey_appFilePath");
@@ -72,8 +83,8 @@ public static String getAndroidAppFilePath(){
         return properties.getProperty(key,defultValue);
     }
 
-    public static int getIntProperty(String key){
-        return Integer.parseInt(getProperty(key));
-    }
+//    public static int getIntProperty(String key){
+//        return Integer.parseInt(getProperty(key));
+//    }
 
 }
