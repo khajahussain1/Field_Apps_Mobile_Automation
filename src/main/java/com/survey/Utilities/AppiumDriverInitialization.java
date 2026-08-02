@@ -38,7 +38,7 @@ public class AppiumDriverInitialization {
             }
 
             if (driver == null) {
-                throw new RuntimeException();
+                throw new RuntimeException("Fialed to create Appium session after "+maxAttempts+"attemps. "+"Make sure no stale Appium session is active. Last error: "+(lastException!=null?lastException.getMessage():"unknow"), lastException);
             }
             driverThreadLocal.set(driver);
         }
@@ -48,7 +48,7 @@ public class AppiumDriverInitialization {
         public static AndroidDriver getDriver(){
             AndroidDriver driver = driverThreadLocal.get();
             if(driver == null){
-                throw new IllegalStateException();
+                throw new IllegalStateException("driver is not initialized call initDriver() first");
             }
             return driver;
         }
