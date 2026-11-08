@@ -1,7 +1,6 @@
 package com.survey.stepDefination;
 
 import com.survey.Utilities.*;
-import io.appium.java_client.flutter.commands.WaitParameter;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
@@ -9,10 +8,10 @@ import io.cucumber.java.Scenario;
 import org.apache.log4j.Logger;
 
 import java.io.File;
-import java.sql.DriverManager;
+import java.net.MalformedURLException;
 import java.util.TreeMap;
 
-import static com.survey.Utilities.AppiumDriverInitialization.getDriver;
+import static com.survey.Utilities.AppiumDriverManager.getDriver;
 import static com.survey.Utilities.MyService.getInstance;
 
 public class Hooks extends Comman_Methods {
@@ -26,9 +25,8 @@ public class Hooks extends Comman_Methods {
     }
 
     @Before(order =0)
-    public void beforeScenarioStart()
-    {
-        AppiumDriverInitialization.initDriver();
+    public void beforeScenarioStart() throws MalformedURLException {
+        AppiumDriverManager.InitializeDriver();
         logger.info("Start of the scenario");
     }
 

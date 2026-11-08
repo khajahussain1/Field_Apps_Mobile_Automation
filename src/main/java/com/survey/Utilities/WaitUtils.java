@@ -1,11 +1,10 @@
 package com.survey.Utilities;
 
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static com.survey.Utilities.AppiumDriverInitialization.getDriver;
+import static com.survey.Utilities.AppiumDriverManager.getDriver;
 
 public class WaitUtils extends Comman_Methods{
     public static WebDriverWait wait;

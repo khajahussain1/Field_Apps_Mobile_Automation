@@ -7,7 +7,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.apache.log4j.Logger;
 
-import static com.survey.Utilities.AppiumDriverInitialization.getDriver;
+import static com.survey.Utilities.AppiumDriverManager.getDriver;
 
 public class Comman_Methods {
     public static WaitUtils waitUtils;
@@ -27,7 +27,7 @@ public class Comman_Methods {
 
     public static void click_drop_down(WebElement element)
     {
-        waitUtils.waitForElementClickable(element);
+        //waitUtils.waitForElementClickable(element);
         element.click();
 
            }

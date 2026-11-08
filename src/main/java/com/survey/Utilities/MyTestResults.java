@@ -1,8 +1,6 @@
 package com.survey.Utilities;
 
-import com.aventstack.extentreports.reporter.FileUtil;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.filefilter.FileFilterUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -13,7 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import static com.survey.Utilities.AppiumDriverInitialization.getDriver;
+import static com.survey.Utilities.AppiumDriverManager.getDriver;
 
 public class MyTestResults {
 
