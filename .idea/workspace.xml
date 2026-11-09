@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9ef45fd-9847-4b99-bb41-f6eb93c963fd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Apps/SampleApps.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/SampleApps.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/AppiumDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/AppiumDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/Comman_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/Comman_Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/WaitUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/survey_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/survey_config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/SurveyTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/SurveyTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/SurveyLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/SurveyLoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logger-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logger-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/spark-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/spark-config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000251285603" />
+      <entry key="S10" value="1.0002493162568522" />
+      <entry key="S30" value="1.2006740565489762" />
+      <entry key="S60" value="2.588645147162131" />
+      <entry key="M2" value="7.294075687260929" />
+      <entry key="M5" value="22.288381235992073" />
+      <entry key="M10" value="48.44955972513461" />
+      <entry key="M15" value="73.61902603839496" />
+      <entry key="M30" value="133.07245151485134" />
+      <entry key="H1" value="203.36770675755176" />
+      <entry key="H2" value="268.1941568899021" />
+      <entry key="H4" value="316.00995188000513" />
+      <entry key="D1" value="368.6357971189427" />
+      <entry key="W1" value="379.19051463595565" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.5671071002331363E-82" />
+      <entry key="S5" value="1.8969038339156096E-33" />
+      <entry key="S10" value="4.371291849093558E-17" />
+      <entry key="S30" value="4.060959926334312E-6" />
+      <entry key="S60" value="0.002612344227180113" />
+      <entry key="M2" value="0.07045035646061898" />
+      <entry key="M5" value="0.5238834342962193" />
+      <entry key="M10" value="1.2143193081680685" />
+      <entry key="M15" value="2.113631966180894" />
+      <entry key="M30" value="5.518337412565856" />
+      <entry key="H1" value="11.17622396633256" />
+      <entry key="H2" value="17.437444430784435" />
+      <entry key="H4" value="22.540253738234615" />
+      <entry key="D1" value="28.53971533624308" />
+      <entry key="W1" value="29.785170464306777" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9201876506248751" />
+      <entry key="MS500" value="0.9835020740262483" />
+      <entry key="S2" value="0.9958497530944581" />
+      <entry key="S5" value="0.9983378547843069" />
+      <entry key="S10" value="0.9994164347986553" />
+      <entry key="S30" value="1.1979302734693484" />
+      <entry key="S60" value="2.5712270796517145" />
+      <entry key="M2" value="7.301885087259761" />
+      <entry key="M5" value="22.712621521024484" />
+      <entry key="M10" value="49.567305118978204" />
+      <entry key="M15" value="75.6417658013546" />
+      <entry key="M30" value="138.5138717785292" />
+      <entry key="H1" value="214.48658762350965" />
+      <entry key="H2" value="285.5941205572568" />
+      <entry key="H4" value="338.528168158946" />
+      <entry key="D1" value="397.171225066907" />
+      <entry key="W1" value="408.97505482636933" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3Lpffaiw3q1vMdA2Qf8uJQ1UQ37" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.Sample.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Field_Apps_Mobile_Automation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Field_Apps_Mobile_Automation [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;TestNG.SurveyTestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.SurveyTestRunner">
+    <configuration name="Sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Field_Apps_Mobile_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.survey.FielReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.survey.FielReader" />
+      <option name="MAIN_CLASS_NAME" value="com.survey.FielReader.Sample" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Field_Apps_Mobile_Automation [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Field_Apps_Mobile_Automation [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SurveyTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Field_Apps_Mobile_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.survey.TestRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.survey.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.survey.TestRunner.SurveyTestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SurveyTestRunner" />
+        <item itemvalue="Maven.Field_Apps_Mobile_Automation [install]" />
+        <item itemvalue="Maven.Field_Apps_Mobile_Automation [clean]" />
+        <item itemvalue="JUnit.Sample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9ef45fd-9847-4b99-bb41-f6eb93c963fd" name="Changes" comment="" />
+      <created>1794156034028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794156034028</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

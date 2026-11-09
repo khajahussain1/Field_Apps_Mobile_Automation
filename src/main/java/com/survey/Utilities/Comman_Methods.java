@@ -25,10 +25,22 @@ public class Comman_Methods {
         return srcBytes;
     }
 
-    public static void click_drop_down(WebElement element)
-    {
+    public static void click_drop_down(WebElement element) throws InterruptedException {
         //waitUtils.waitForElementClickable(element);
+        Thread.sleep(500);
         element.click();
 
            }
+    public static void enter_text(WebElement element, String value ) throws InterruptedException {
+        WaitUtils.VisibilityOfElement(element);
+        //Thread.sleep(500);
+        element.sendKeys(value);
+
+    }
+
+    public static void click_button(WebElement element) throws InterruptedException {
+        waitUtils.waitForElementClickable(element);
+        //Thread.sleep(500);
+        element.click();
+    }
 }

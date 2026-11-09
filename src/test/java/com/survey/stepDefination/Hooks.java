@@ -14,35 +14,35 @@ import java.util.TreeMap;
 import static com.survey.Utilities.AppiumDriverManager.getDriver;
 import static com.survey.Utilities.MyService.getInstance;
 
-public class Hooks extends Comman_Methods {
-    public static TreeMap<String,String> map = null;
-    public static Logger logger = Logger.getLogger(Hooks.class);
-
-    @Before
-    public static void SetUp(Scenario s)
-    {
-        logger.info("Test case name : "+s.getName());
-    }
+public class Hooks {
+//    public static TreeMap<String,String> map = null;
+//    public static Logger logger = Logger.getLogger(Hooks.class);
+//
+//    @Before
+//    public static void SetUp(Scenario s)
+//    {
+//        logger.info("Test case name : "+s.getName());
+//    }
 
     @Before(order =0)
     public void beforeScenarioStart() throws MalformedURLException {
         AppiumDriverManager.InitializeDriver();
-        logger.info("Start of the scenario");
+        //logger.info("Start of the scenario");
     }
 
-    @Before(order =1)
-    public void beforeScenario() throws InterruptedException {
-        Comman_Methods.actionInit();
-        WaitUtils.webDriverWaitInit();
-        Comman_Methods.javascriptInit();
-    }
+//    @Before(order =1)
+//    public void beforeScenario() throws InterruptedException {
+////        Comman_Methods.actionInit();
+////        WaitUtils.webDriverWaitInit();
+////        Comman_Methods.javascriptInit();
+//    }
 
-    @After(order =0)
-    public void afterScenarioFinished() throws InterruptedException {
-        logger.info("_________End of the Scenario ___________");
-    }
+//    @After(order =0)
+//    public void afterScenarioFinished() throws InterruptedException {
+//        logger.info("_________End of the Scenario ___________");
+//    }
 
-    @After(order =1)
+    /*@After(order =1)
     public void afterScenario(Scenario scenario) throws InterruptedException {
         if(getDriver()!=null)
         {
@@ -60,7 +60,7 @@ public class Hooks extends Comman_Methods {
         }
         getInstance().flush(0);
         WaitUtils.standedWait(5);
-    }
+    }*/
 
     @AfterStep
     public static void takeScreenshot(Scenario ss){

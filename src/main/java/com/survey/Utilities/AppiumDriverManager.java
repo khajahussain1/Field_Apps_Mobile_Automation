@@ -4,6 +4,7 @@ import com.survey.FielReader.ConfigReader;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
@@ -13,24 +14,21 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
+import static com.survey.FielReader.ConfigReader.ppty;
+
 public class AppiumDriverManager {
 
     public static AppiumDriverLocalService service;
-    public static AndroidDriver driver = null;
-    private static final ThreadLocal<AndroidDriver> TLDriver = new ThreadLocal<>();
+    public static AppiumDriver driver;
+    private static final ThreadLocal<AppiumDriver> TLDriver = new ThreadLocal<>();
     public static Scenario scenario;
 
     public static void InitializeDriver() throws MalformedURLException {
-        service = new AppiumServiceBuilder()
-                .withIPAddress("127.0.0.1")
-                .usingPort(4723)
-                .withTimeout(Duration.ofSeconds(30))
-                .build();
-
+        service = new AppiumServiceBuilder().withIPAddress("127.0.0.1").usingPort(4723).withTimeout(Duration.ofSeconds(30)).build();
         service.start();
         System.out.println("Appium Server Started Successfully");
-        String platform = System.getProperty("platform");
-        String appType = System.getProperty("appType");
+        String platform = ppty.getProperty("PLATFORM");
+        String appType = ppty.getProperty("appType");
         switch (platform.toLowerCase())
         {
          case "android":
@@ -44,6 +42,7 @@ public class AppiumDriverManager {
             default:
                 throw new RuntimeException("Platform not supported");
         }
+        setDriver(driver);
     }
 
     public static AppiumDriver createAndroidDriver(String appType) throws MalformedURLException {
@@ -108,12 +107,16 @@ public class AppiumDriverManager {
                 options.setDeviceName(ConfigReader.getDeviceName());
                 options.setAutomationName(ConfigReader.getAutomationName());
                 options.setPlatformVersion(ConfigReader.getPlatformVersion());
-                options.setApp(ConfigReader.getAppPath());
+                //options.setApp(ConfigReader.getAppPath());
+                options.setApp("/Users/poolakhajahussain/Downloads/iOS.Simulator.app");
+
 
                 //app capabilities
-                options.setBundleId("com.demo.ios");
-                options.setNoReset(true);
-                options.setFullReset(false);
+                options.setUdid("8DA3E842-99BC-4C89-B6CD-03F424439B82");
+
+//                options.setBundleId("com.demo.ios");
+//                options.setNoReset(true);
+//                options.setFullReset(false);
                 break;
 
             case "HYBRIDE":
@@ -145,7 +148,8 @@ public class AppiumDriverManager {
             default:
                 throw new RuntimeException("Platform not supported");
         }
-        return new AndroidDriver(new URL(ConfigReader.getAppiumServerurl()), options);
+          return driver = new IOSDriver(new URL(ConfigReader.getAppiumServerurl()), options);
+        //return new IOSDriver(new URL(ConfigReader.getAppiumServerurl()), options);
     }
 
 
@@ -154,7 +158,7 @@ public class AppiumDriverManager {
             return TLDriver.get();
         }
 
-    public static void setDriver()
+    public static void setDriver(AppiumDriver driver)
     {
         TLDriver.set(driver);
     }

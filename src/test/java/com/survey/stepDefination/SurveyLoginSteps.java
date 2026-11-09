@@ -11,7 +11,7 @@ public class SurveyLoginSteps {
     LoginPage loginPage = new LoginPage(getDriver());
 
     @Given("login to the survey application with valid credentials")
-        public void login_to_the_survey_application_with_valid_credentials(){
+        public void login_to_the_survey_application_with_valid_credentials() throws InterruptedException {
             loginPage.login_to_the_survey_application_with_valid_credentials();
 
     }

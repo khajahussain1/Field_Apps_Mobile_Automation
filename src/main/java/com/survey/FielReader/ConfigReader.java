@@ -7,66 +7,66 @@ import java.util.Properties;
 
 public class ConfigReader {
 private static final String CONFIG_FILE_PATH = "src/main/resources/survey_config.properties";
-private static Properties properties;
+public static Properties ppty;
 
 static{
-    properties = new Properties();
+    ppty = new Properties();
     try(FileInputStream fis = new FileInputStream(CONFIG_FILE_PATH)){
-        properties.load(fis);
+        ppty.load(fis);
 
     } catch (IOException e) {
         e.printStackTrace();
     }
 }
 
-public static String getProperty(String key){
+/*public static String getProperty(String key){
     String value = properties.getProperty(key);
     if(value==null){
         throw new RuntimeException("Property not found: "+key);
     }
     return value;
 
-}
+}*/
 
 public static int getIntProperty(String key, int defaultValue)
 {
-    String value = properties.getProperty(key);
+    String value = ppty.getProperty(key);
     return value!=null?Integer.parseInt(value) : defaultValue;
 }
 
     public static boolean getBooleanProperty(String key, Boolean defaultValue)
     {
-        String value = properties.getProperty(key);
+        String value = ppty.getProperty(key);
         return value!=null?Boolean.parseBoolean(value) : defaultValue;
     }
 
 public static String getAndroidAppFilePath(){
-    return properties.getProperty("android.survey_appFilePath");
+    return ppty.getProperty("android.survey_appFilePath");
 }
 
     public static String getIOSAppFilePath(){
-        return properties.getProperty("ios.appFilePath");
+        return ppty.getProperty("ios.appFilePath");
     }
 
-    public static String getPlatformName() {return properties.getProperty("platform.name");
+    public static String getPlatformName() {return ppty.getProperty("platformName");
     }
 
-    public static String getAutomationName() {return properties.getProperty("automation.name");
+    public static String getAutomationName() {return ppty.getProperty("automationName");
     }
 
-    public static String getPlatformVersion() {return properties.getProperty("platform.version");
+    public static String getPlatformVersion() {return ppty.getProperty("platformVersion");
     }
 
-    public static String getDeviceName() {return properties.getProperty("device.name");
+    public static String getDeviceName() {return ppty.getProperty("deviceName");
     }
 
-    public static String getAppPath() {return System.getProperty("user.dir")+getProperty("app.path");
+    public static String getAppPath() {return System.getProperty("user.dir")+ppty.getProperty("appPath");
     }
 
-    public static String getAppPackage() {return properties.getProperty("app.package");
+    public static String getAppPackage() {return ppty.getProperty("app.package");
     }
 
-    public static String getAppActivity() {return properties.getProperty("app.activity");
+    public static String getAppActivity() {return ppty.getProperty("app.activity");
     }
 
     public static boolean isNoReset() {return getBooleanProperty("no.reset", false);
@@ -76,11 +76,11 @@ public static String getAndroidAppFilePath(){
     }
 
     public static String getAppiumServerurl() {
-    return properties.getProperty("appium.server.url");
+    return ppty.getProperty("appium.server.url");
     }
 
     public String getProperty(String key, String defultValue){
-        return properties.getProperty(key,defultValue);
+        return ppty.getProperty(key,defultValue);
     }
 
 //    public static int getIntProperty(String key){
