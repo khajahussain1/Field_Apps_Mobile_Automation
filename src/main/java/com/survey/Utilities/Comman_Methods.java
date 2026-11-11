@@ -1,5 +1,6 @@
 package com.survey.Utilities;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.TouchAction;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -26,21 +27,46 @@ public class Comman_Methods {
     }
 
     public static void click_drop_down(WebElement element) throws InterruptedException {
-        //waitUtils.waitForElementClickable(element);
-        Thread.sleep(500);
+        waitUtils.waitForElementClickable(element);
         element.click();
 
            }
     public static void enter_text(WebElement element, String value ) throws InterruptedException {
         WaitUtils.VisibilityOfElement(element);
-        //Thread.sleep(500);
+        element.clear();
         element.sendKeys(value);
 
     }
 
     public static void click_button(WebElement element) throws InterruptedException {
         waitUtils.waitForElementClickable(element);
-        //Thread.sleep(500);
         element.click();
     }
+
+    public static boolean isDisplayed_dropdown_menu(WebElement element) throws InterruptedException {
+        try {
+            WaitUtils.VisibilityOfElement(element);
+            if (element.isDisplayed()) {
+                return true;
+            }
+        }catch(Exception e)
+        {
+           System.out.println(e+" drop down menu is not displayed");
+            //return false;
+        }
+
+        return false;
+    }
+
+    public static void click_dropdown_Domain(WebElement element) throws InterruptedException {
+        waitUtils.waitForElementClickable(element);
+        element.click();
+    }
+
+    public static void selectCountry(String CountryName)
+    {
+        getDriver().findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text(\""+CountryName+"\"))"));
+        getDriver().findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\""+CountryName+"\")")).click();
+    }
+
 }

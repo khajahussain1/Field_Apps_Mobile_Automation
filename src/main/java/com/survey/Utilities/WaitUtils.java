@@ -11,14 +11,18 @@ import static com.survey.Utilities.AppiumDriverManager.getDriver;
 public class WaitUtils{
     public static WebDriverWait wait;
 
+    static{
+        wait = new WebDriverWait(getDriver(), Duration.ofSeconds(100));
+    }
+
     public static void standedWait(int timeout) throws InterruptedException {
 
         Thread.sleep(1000*timeout);
     }
 
-    public static void webDriverWaitInit() throws InterruptedException {
-        wait = new WebDriverWait(getDriver(), Duration.ofSeconds(100));
-    }
+//    public static void webDriverWaitInit() throws InterruptedException {
+//        wait = new WebDriverWait(getDriver(), Duration.ofSeconds(100));
+//    }
 
     public static void waitForElementClickable(WebElement element) throws InterruptedException {
         wait = new WebDriverWait(getDriver(), Duration.ofSeconds(100));
@@ -26,7 +30,7 @@ public class WaitUtils{
     }
 
     public static void VisibilityOfElement(WebElement element) throws InterruptedException {
-        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(100));
+        //WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(100));
         wait.until(ExpectedConditions.visibilityOf(element));
 
     }

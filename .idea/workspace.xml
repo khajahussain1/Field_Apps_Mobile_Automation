@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ef45fd-9847-4b99-bb41-f6eb93c963fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Apps/SampleApps.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/SampleApps.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/SampleApps.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/SampleApps.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/AppiumDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/AppiumDriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/Comman_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/Comman_Methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/WaitUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/survey_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/survey_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/SurveyTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/SurveyTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/SurveyLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/SurveyLoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logger-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logger-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/spark-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/spark-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,59 +34,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000251285603" />
-      <entry key="S10" value="1.0002493162568522" />
-      <entry key="S30" value="1.2006740565489762" />
-      <entry key="S60" value="2.588645147162131" />
-      <entry key="M2" value="7.294075687260929" />
-      <entry key="M5" value="22.288381235992073" />
-      <entry key="M10" value="48.44955972513461" />
-      <entry key="M15" value="73.61902603839496" />
-      <entry key="M30" value="133.07245151485134" />
-      <entry key="H1" value="203.36770675755176" />
-      <entry key="H2" value="268.1941568899021" />
-      <entry key="H4" value="316.00995188000513" />
-      <entry key="D1" value="368.6357971189427" />
-      <entry key="W1" value="379.19051463595565" />
+      <entry key="S2" value="1.0000000000000018" />
+      <entry key="S5" value="1.0000018944272164" />
+      <entry key="S10" value="1.0019380557424764" />
+      <entry key="S30" value="1.1977208763876095" />
+      <entry key="S60" value="1.6287649418359411" />
+      <entry key="M2" value="2.1215638417282077" />
+      <entry key="M5" value="2.6446730173903585" />
+      <entry key="M10" value="3.320706159115417" />
+      <entry key="M15" value="4.277465374294579" />
+      <entry key="M30" value="8.62653465696644" />
+      <entry key="H1" value="28.29659757707043" />
+      <entry key="H2" value="93.7176859816952" />
+      <entry key="H4" value="199.29300279822147" />
+      <entry key="D1" value="398.1274767558787" />
+      <entry key="W1" value="450.5519942119855" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.5671071002331363E-82" />
-      <entry key="S5" value="1.8969038339156096E-33" />
-      <entry key="S10" value="4.371291849093558E-17" />
-      <entry key="S30" value="4.060959926334312E-6" />
-      <entry key="S60" value="0.002612344227180113" />
-      <entry key="M2" value="0.07045035646061898" />
-      <entry key="M5" value="0.5238834342962193" />
-      <entry key="M10" value="1.2143193081680685" />
-      <entry key="M15" value="2.113631966180894" />
-      <entry key="M30" value="5.518337412565856" />
-      <entry key="H1" value="11.17622396633256" />
-      <entry key="H2" value="17.437444430784435" />
-      <entry key="H4" value="22.540253738234615" />
-      <entry key="D1" value="28.53971533624308" />
-      <entry key="W1" value="29.785170464306777" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="8.13416507000715E-243" />
+      <entry key="S10" value="9.335414938544899E-122" />
+      <entry key="S30" value="6.473441845069041E-41" />
+      <entry key="S60" value="1.2825520811199846E-20" />
+      <entry key="M2" value="1.917156919517965E-10" />
+      <entry key="M5" value="2.510927432386414E-4" />
+      <entry key="M10" value="0.030457407992854783" />
+      <entry key="M15" value="0.17905314370209094" />
+      <entry key="M30" value="1.6035124516042478" />
+      <entry key="H1" value="7.168459241843662" />
+      <entry key="H2" value="19.165135321432466" />
+      <entry key="H4" value="34.72127137968411" />
+      <entry key="D1" value="61.098071009924915" />
+      <entry key="W1" value="67.79899892562203" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9201876506248751" />
-      <entry key="MS500" value="0.9835020740262483" />
-      <entry key="S2" value="0.9958497530944581" />
-      <entry key="S5" value="0.9983378547843069" />
-      <entry key="S10" value="0.9994164347986553" />
-      <entry key="S30" value="1.1979302734693484" />
-      <entry key="S60" value="2.5712270796517145" />
-      <entry key="M2" value="7.301885087259761" />
-      <entry key="M5" value="22.712621521024484" />
-      <entry key="M10" value="49.567305118978204" />
-      <entry key="M15" value="75.6417658013546" />
-      <entry key="M30" value="138.5138717785292" />
-      <entry key="H1" value="214.48658762350965" />
-      <entry key="H2" value="285.5941205572568" />
-      <entry key="H4" value="338.528168158946" />
-      <entry key="D1" value="397.171225066907" />
-      <entry key="W1" value="408.97505482636933" />
+      <entry key="MS100" value="0.8888426811665702" />
+      <entry key="MS500" value="0.9767085289622274" />
+      <entry key="S2" value="0.9941255712940574" />
+      <entry key="S5" value="0.9976479633075752" />
+      <entry key="S10" value="1.000757438044387" />
+      <entry key="S30" value="1.1972245577133878" />
+      <entry key="S60" value="1.628402662000977" />
+      <entry key="M2" value="2.121312752461003" />
+      <entry key="M5" value="2.6443316788364695" />
+      <entry key="M10" value="3.3492212237906003" />
+      <entry key="M15" value="4.453404923476021" />
+      <entry key="M30" value="10.223464364430296" />
+      <entry key="H1" value="35.45133293440203" />
+      <entry key="H2" value="112.8623734867573" />
+      <entry key="H4" value="233.9944012073233" />
+      <entry key="D1" value="459.21940950302576" />
+      <entry key="W1" value="518.3500127487874" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,6 +109,7 @@
     &quot;TestNG.SurveyTestRunner.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/poolakhajahussain/Documents/SeleniumJava-Automation/Field_Apps_Mobile_Automation/src/main/java/com/survey/FieldApps&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -127,6 +121,15 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/survey/FieldApps" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/AndroidApps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.SurveyTestRunner">
     <configuration name="Sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Field_Apps_Mobile_Automation" />
