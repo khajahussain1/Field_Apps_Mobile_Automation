@@ -11,7 +11,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import static com.survey.Utilities.AppiumDriverManager.getDriver;
+import static com.survey.MobileDrivers.AppiumDriverManager.getDriver;
+
 
 public class MyTestResults {
 

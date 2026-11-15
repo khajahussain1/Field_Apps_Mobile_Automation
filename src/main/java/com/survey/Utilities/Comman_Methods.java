@@ -8,7 +8,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.apache.log4j.Logger;
 
-import static com.survey.Utilities.AppiumDriverManager.getDriver;
+import static com.survey.MobileDrivers.AppiumDriverManager.getDriver;
+
 
 public class Comman_Methods {
     public static WaitUtils waitUtils;
@@ -33,7 +34,7 @@ public class Comman_Methods {
            }
     public static void enter_text(WebElement element, String value ) throws InterruptedException {
         WaitUtils.VisibilityOfElement(element);
-        element.clear();
+        //element.clear();
         element.sendKeys(value);
 
     }

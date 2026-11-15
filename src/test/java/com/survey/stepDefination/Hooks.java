@@ -1,17 +1,13 @@
 package com.survey.stepDefination;
 
+import com.survey.MobileDrivers.AppiumDriverManager;
 import com.survey.Utilities.*;
 import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.apache.log4j.Logger;
 
-import java.io.File;
 import java.net.MalformedURLException;
-import java.util.TreeMap;
 
-import static com.survey.Utilities.AppiumDriverManager.getDriver;
 import static com.survey.Utilities.MyService.getInstance;
 
 public class Hooks {
@@ -27,7 +23,8 @@ public class Hooks {
     @Before(order =0)
     public void beforeScenarioStart() throws MalformedURLException {
         AppiumDriverManager.InitializeDriver();
-        //logger.info("Start of the scenario");
+//        AppiumDriver driver = AppiumDriverManager.InitializeDriver();
+//        AppiumDriverManager.setDriver(driver);
     }
 
 //    @Before(order =1)
@@ -62,14 +59,15 @@ public class Hooks {
         WaitUtils.standedWait(5);
     }*/
 
-    @AfterStep
-    public static void takeScreenshot(Scenario ss){
+    @After
+    public static void afterScenario(Scenario ss){
         GlobalVariables.ScenarioName = ss.getName();
         if(ss.isFailed()){
             MyTestResults.takescreenshot();
 
         }
         getInstance().flush(0);
+        AppiumDriverManager.quitDriver();
 
     }
 

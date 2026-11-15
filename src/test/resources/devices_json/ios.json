@@ -1,0 +1,21 @@
+{
+  "serverUrl": "http://127.0.0.1:4723",
+  "devices": [
+    {
+      "name": "iphone-1",
+      "udid": "SIMULATOR-UDID-1",
+      "platformVersion": "18.0",
+      "app": "/absolute/path/to/app.app",
+      "wdaLocalPort": 8101,
+      "derivedDataPath": "/tmp/wda-iphone-1"
+    },
+    {
+      "name": "iphone-2",
+      "udid": "SIMULATOR-UDID-2",
+      "platformVersion": "18.0",
+      "app": "/absolute/path/to/app.app",
+      "wdaLocalPort": 8102,
+      "derivedDataPath": "/tmp/wda-iphone-2"
+    }
+  ]
+}

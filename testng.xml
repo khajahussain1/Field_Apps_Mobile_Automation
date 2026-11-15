@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MobileSuite" parallel="tests" data-provider-thread-count="2">
+
+    <test name="Android">
+        <classes>
+            <class name="com.survey.TestRunner.AndroidTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="IOS">
+        <classes>
+            <class name="com.survey.TestRunner.IOSTestRunner"/>
+        </classes>
+    </test>
+
+</suite>
+
