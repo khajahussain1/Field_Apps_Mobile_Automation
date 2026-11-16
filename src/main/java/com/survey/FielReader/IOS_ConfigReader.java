@@ -20,59 +20,15 @@ static{
     }
 }
 
-public static int getIntProperty(String key, int defaultValue)
-{
-    String value = IOS_ppty.getProperty(key);
-    return value!=null?Integer.parseInt(value) : defaultValue;
-}
-
-    public static boolean getBooleanProperty(String key, Boolean defaultValue)
-    {
-        String value = IOS_ppty.getProperty(key);
-        return value!=null?Boolean.parseBoolean(value) : defaultValue;
-    }
-
-    public static String IOS_getPlatformName() {return IOS_ppty.getProperty("IOS.PlatformName");
-    }
-
-    public static String IOS_getAutomationName() {return IOS_ppty.getProperty("IOS.AutomationName");
-    }
-
-    public static String IOS_getPlatformVersion() {return IOS_ppty.getProperty("IOS.PlatformVersion");
-    }
-
-    public static String IOS_getDeviceName() {return IOS_ppty.getProperty("IOS.DeviceName");
-    }
-
-    public static String IOS_getAppPath() {
-        String AppPath = System.getProperty("user.dir")+IOS_ppty.getProperty("IOS.AppPath");
-        System.out.println("APP Path: " + AppPath);
-        File apk = new File(AppPath);
-        System.out.println("Exists: " + apk.exists());
-        if(AppPath!=null)
-        {
-            return AppPath;
-
-        }else{
-            throw new RuntimeException("App Path not specified in the Configuration.properties file");
-        }
-    }
-
-    public static boolean isNoReset() {return getBooleanProperty("no.reset", false);
-    }
-
-    public static int getNewCommandTimeout() {return getIntProperty("timeout.new.command", 600);
-    }
-
     public static String IOS_getAppiumServerurl() {
         return IOS_ppty.getProperty("IOS.appium.server.url");
     }
 
-    public static String getStringValue(String key) {
+    public static String getString(String key) {
         return IOS_ppty.getProperty(key);
     }
 
-    public static int getIntValue(String key) {
+    public static int getInt(String key) {
         String value = IOS_ppty.getProperty(key);
         int result = value!=null?Integer.parseInt(value) : 0;
         return result;

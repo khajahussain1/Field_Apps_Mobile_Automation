@@ -7,11 +7,9 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
-
 import static com.survey.FielReader.ConfigReader.ppty;
 import static com.survey.MobileDrivers.AppiumDriverManager.setDriver;
 
@@ -28,34 +26,24 @@ public class IOSDriverManager {
         switch(IOS_AppType.toUpperCase())
         {
             case "NATIVE":
-                ios.setPlatformName(IOS_ConfigReader.IOS_getPlatformName());
-                ios.setDeviceName(iosDeviceConfig.getDeviceName());
-                ios.setAutomationName(IOS_ConfigReader.IOS_getAutomationName());
-                ios.setPlatformVersion(IOS_ConfigReader.IOS_getPlatformVersion());
-                ios.setApp(IOS_ConfigReader.IOS_getAppPath());
-                ios.setUdid(iosDeviceConfig.getUdid());
-                ios.setWdaLocalPort(iosDeviceConfig.getWdaLocalPort());
-                ios.setDerivedDataPath(String.valueOf(iosDeviceConfig.getDerivedDataPath()));
-
-//                ios.setWdaLocalPort(8101);
-//                ios.setCapability("derivedDataPath", "/tmp/WDA_" + Thread.currentThread().getId());
-//                ios.setCapability("useNewWDA", true);
-//                .setWdaLocalPort(device.wdaLocalPort())
-//                    .setDerivedDataPath(device.derivedDataPath());
-
-//                options.setBundleId("com.demo.ios");
-//                options.setNoReset(true);
-              //  options.setFullReset(true);
+                 ios.setPlatformName(iosDeviceConfig.getPlatformName());
+                 ios.setAutomationName(iosDeviceConfig.getAutomationName());
+                 ios.setDeviceName(iosDeviceConfig.getDeviceName());
+                 ios.setPlatformVersion(iosDeviceConfig.getPlatformVersion());
+                 ios.setUdid(iosDeviceConfig.getUdid());
+                 ios.setDerivedDataPath(iosDeviceConfig.getDerivedDataPath());
+                 ios.setWdaLocalPort(Integer.valueOf(iosDeviceConfig.getWdaLocalPort()));
+                 ios.setApp(System.getProperty("user.dir")+iosDeviceConfig.getAppPath());
                 break;
 
             case "HYBRIDE":
 
                 //platform capabilities
-                ios.setPlatformName(IOS_ConfigReader.IOS_getPlatformName());
-                ios.setDeviceName(IOS_ConfigReader.IOS_getDeviceName());
-                ios.setAutomationName(IOS_ConfigReader.IOS_getAutomationName());
-                ios.setPlatformVersion(IOS_ConfigReader.IOS_getPlatformVersion());
-                ios.setApp(IOS_ConfigReader.IOS_getAppPath());
+                ios.setPlatformName(iosDeviceConfig.getPlatformName());
+                ios.setDeviceName(iosDeviceConfig.getDeviceName());
+                ios.setAutomationName(iosDeviceConfig.getAutomationName());
+                ios.setPlatformVersion(iosDeviceConfig.getPlatformVersion());
+                //ios.setApp(iosDeviceConfig.getAppPath());
 
                 //app capabilities
                 ios.setBundleId("com.demo.ios");
@@ -64,10 +52,10 @@ public class IOSDriverManager {
                 break;
 
             case "WEBAPP":
-                ios.setPlatformName(IOS_ConfigReader.IOS_getPlatformName());
-                ios.setDeviceName(IOS_ConfigReader.IOS_getDeviceName());
-                ios.setAutomationName(IOS_ConfigReader.IOS_getAutomationName());
-                ios.setPlatformVersion(IOS_ConfigReader.IOS_getPlatformVersion());
+                ios.setPlatformName(iosDeviceConfig.getPlatformName());
+                ios.setDeviceName(iosDeviceConfig.getDeviceName());
+                ios.setAutomationName(iosDeviceConfig.getAutomationName());
+                ios.setPlatformVersion(iosDeviceConfig.getPlatformVersion());
                 ios.setUdid("emulator-5554");
                 ios.setCapability("browserName", "chrome");
 //                 return new AndroidDriver(new URL(ConfigReader.getAppiumServerurl()), options);

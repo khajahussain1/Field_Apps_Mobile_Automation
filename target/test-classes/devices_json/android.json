@@ -1,0 +1,39 @@
+{
+  "appiumServer": "http://127.0.0.1:4723",
+  "devices": [
+    {
+      "platform": "android",
+      "name": "Pixel_1",
+      "udid": "emulator-5554",
+      "platformVersion": "15",
+      "app": "/absolute/path/app.apk",
+      "systemPort": 8201
+    },
+    {
+      "platform": "android",
+      "name": "Pixel_2",
+      "udid": "emulator-5556",
+      "platformVersion": "15",
+      "app": "/absolute/path/app.apk",
+      "systemPort": 8202
+    },
+    {
+      "platform": "ios",
+      "name": "iPhone_1",
+      "udid": "IOS-SIMULATOR-UDID-1",
+      "platformVersion": "18.0",
+      "app": "/absolute/path/app.app",
+      "wdaLocalPort": 8101,
+      "derivedDataPath": "/tmp/wda-iphone-1"
+    },
+    {
+      "platform": "ios",
+      "name": "iPhone_2",
+      "udid": "IOS-SIMULATOR-UDID-2",
+      "platformVersion": "18.0",
+      "app": "/absolute/path/app.app",
+      "wdaLocalPort": 8102,
+      "derivedDataPath": "/tmp/wda-iphone-2"
+    }
+  ]
+}

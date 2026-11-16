@@ -1,5 +1,6 @@
 package com.survey.Pages;
 
+import com.survey.MobileDrivers.AppiumDriverManager;
 import com.survey.Utilities.WaitUtils;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -39,13 +40,16 @@ public class LoginPage {
     }
 
     public void enterUsername(String username) throws InterruptedException {
-        //waitFor(usernameInput).clear();
         WaitUtils.VisibilityOfElement(usernameInput);
+        usernameInput.click();
+        usernameInput.clear();
         usernameInput.sendKeys(username);
     }
 
     public void enterPassword(String password) throws InterruptedException {
         WaitUtils.VisibilityOfElement(usernameInput);
+        passwordInput.click();
+        passwordInput.clear();
         passwordInput.sendKeys(password);
     }
 

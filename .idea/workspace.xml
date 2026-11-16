@@ -5,115 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efca0ae7-dedc-41ba-a273-1d435065ecf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start-appium-servers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/DeviceConfig/AndroidDeviceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/DeviceConfig/IOSDeviceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/DeviceManagers/AndroidDeviceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/DeviceManagers/IOSDeviceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/Android_ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/IOS_ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/AndroidApps/Android.SauceLabs.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AntDesign.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AppIcon20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AppIcon20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AppIcon29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AppIcon29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AppIcon40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AppIcon40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AppIcon60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/AppIcon60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Assets.car" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Base.lproj/LaunchScreen.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Entypo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/EvilIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Feather.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/FontAwesome.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/FontAwesome5_Brands.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/FontAwesome5_Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/FontAwesome5_Solid.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Fontisto.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Foundation.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftCore.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftCoreFoundation.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftCoreGraphics.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftCoreImage.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftCoreLocation.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftDarwin.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftDispatch.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftFoundation.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftMetal.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftObjectiveC.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftQuartzCore.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftUIKit.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Frameworks/libswiftos.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MaterialCommunityIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MaterialIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans-100.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans-100Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans-300.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans-300Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans-700Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans-900Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans_500.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans_500_Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans_700.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/MuseoSans_900.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Octicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/PkgInfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/SimpleLineIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/SwagLabsMobileApp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/Zocial.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/arrow-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/bike-light.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/bolt-shirt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/filter-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/footer-swagbot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/login-bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/menu-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/menu-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/menu-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/pony-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/red-onesie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/red-tatt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/sauce-backpack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/sauce-bolt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/sauce-pullover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/sl-404.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/surfing-sauce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/swag-labs-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/toggle-grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/img/toggle-row.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/assets/src/js/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/FieldApps/IOSApps/iOS.Simulator.app/main.jsbundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/MobileDrivers/AndroidDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/MobileDrivers/AppiumDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/MobileDrivers/IOSDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/survey/Pages/LoginPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/IOSTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Survey_features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/device_properties/android_device.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/device_properties/ios_device.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/devices_json/android.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/devices_json/ios.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/DeviceConfig/AndroidDeviceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/DeviceConfig/AndroidDeviceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/DeviceConfig/IOSDeviceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/DeviceConfig/IOSDeviceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/DeviceManagers/AndroidDeviceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/DeviceManagers/AndroidDeviceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/DeviceManagers/IOSDeviceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/DeviceManagers/IOSDeviceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/Android_ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/Android_ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/IOS_ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/FielReader/IOS_ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/MobileDrivers/AndroidDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/MobileDrivers/AndroidDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/MobileDrivers/IOSDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/MobileDrivers/IOSDriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/AppiumDriverManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/Comman_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/Comman_Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/MyTestResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/MyTestResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/survey/Utilities/WaitUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/survey_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/survey_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/SurveyTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/AndroidTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/SurveyLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/stepDefination/SurveyLoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Survey_features/SurveyLogin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/IOSTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/survey/TestRunner/IOSTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/device_properties/android_device.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/device_properties/android_device.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/device_properties/ios_device.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/device_properties/ios_device.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,60 +41,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000429728293" />
-      <entry key="S2" value="1.0145095072260817" />
-      <entry key="S5" value="1.209830793180758" />
-      <entry key="S10" value="1.6127219050750004" />
-      <entry key="S30" value="2.937405594796834" />
-      <entry key="S60" value="4.294396980567865" />
-      <entry key="M2" value="5.871930681703456" />
-      <entry key="M5" value="8.023976685610844" />
-      <entry key="M10" value="10.804173175049812" />
-      <entry key="M15" value="13.666615345612783" />
-      <entry key="M30" value="22.256772493830653" />
-      <entry key="H1" value="39.36609613942199" />
-      <entry key="H2" value="67.4638216551029" />
-      <entry key="H4" value="107.62952505733948" />
-      <entry key="D1" value="220.79908863399405" />
-      <entry key="W1" value="266.69855869782265" />
+      <entry key="MS500" value="1.000000000000987" />
+      <entry key="S2" value="1.0010041268746581" />
+      <entry key="S5" value="1.085069757197398" />
+      <entry key="S10" value="1.6358539360204305" />
+      <entry key="S30" value="4.475998153378062" />
+      <entry key="S60" value="6.551237275237652" />
+      <entry key="M2" value="8.055833833922422" />
+      <entry key="M5" value="9.306568233297188" />
+      <entry key="M10" value="10.945191402795633" />
+      <entry key="M15" value="12.795877096900908" />
+      <entry key="M30" value="18.955704786834687" />
+      <entry key="H1" value="33.59173689067042" />
+      <entry key="H2" value="66.42266448393993" />
+      <entry key="H4" value="129.37160250258862" />
+      <entry key="D1" value="349.63697492535624" />
+      <entry key="W1" value="449.9908130246159" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="3.0607572041062516E-174" />
-      <entry key="S10" value="1.7499645998126198E-87" />
-      <entry key="S30" value="1.303346696411921E-29" />
-      <entry key="S60" value="4.812371264029945E-15" />
-      <entry key="M2" value="1.1007989144429371E-7" />
-      <entry key="M5" value="0.003114663041166307" />
-      <entry key="M10" value="0.09709190555963142" />
-      <entry key="M15" value="0.3195711212641956" />
-      <entry key="M30" value="1.4764080421176953" />
-      <entry key="H1" value="5.370968721034801" />
-      <entry key="H2" value="13.05004908057487" />
-      <entry key="H4" value="23.740796689382382" />
-      <entry key="D1" value="53.51025246403922" />
-      <entry key="W1" value="65.56409188719898" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="8.871068349194364E-269" />
+      <entry key="S30" value="9.075267146501043E-90" />
+      <entry key="S60" value="5.202170707453944E-45" />
+      <entry key="M2" value="1.2483013889712067E-22" />
+      <entry key="M5" value="3.3474936277146553E-9" />
+      <entry key="M10" value="1.002341780055769E-4" />
+      <entry key="M15" value="0.003120862194866411" />
+      <entry key="M30" value="0.10207047834721765" />
+      <entry key="H1" value="0.7763206497496772" />
+      <entry key="H2" value="3.722015584893982" />
+      <entry key="H4" value="12.512186559369882" />
+      <entry key="D1" value="55.78842529588763" />
+      <entry key="W1" value="78.20386011286628" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="9.797530014675201E-22" />
-      <entry key="MS500" value="6.283813985819761E-5" />
-      <entry key="S2" value="0.08919386009151276" />
-      <entry key="S5" value="0.42510469980162086" />
-      <entry key="S10" value="0.9294200839802051" />
-      <entry key="S30" value="2.450750640354828" />
-      <entry key="S60" value="3.9373831347729125" />
-      <entry key="M2" value="5.637576696878974" />
-      <entry key="M5" value="7.909626461657164" />
-      <entry key="M10" value="10.832802961766095" />
-      <entry key="M15" value="13.934700683822044" />
-      <entry key="M30" value="23.69916934035916" />
-      <entry key="H1" value="44.711582076199974" />
-      <entry key="H2" value="80.49387600499035" />
-      <entry key="H4" value="131.35513211359438" />
-      <entry key="D1" value="274.30438029112946" />
-      <entry key="W1" value="332.26180400847306" />
+      <entry key="MS100" value="0.757858283255199" />
+      <entry key="MS500" value="0.9460576467265706" />
+      <entry key="S2" value="0.9872337072799152" />
+      <entry key="S5" value="1.079435334551446" />
+      <entry key="S10" value="1.6326939554806685" />
+      <entry key="S30" value="4.474346793670499" />
+      <entry key="S60" value="6.550189447119453" />
+      <entry key="M2" value="8.055227150229877" />
+      <entry key="M5" value="9.30584732199201" />
+      <entry key="M10" value="10.94297347745575" />
+      <entry key="M15" value="12.795561945728727" />
+      <entry key="M30" value="19.052451669847702" />
+      <entry key="H1" value="34.3608903994231" />
+      <entry key="H2" value="70.13558739338909" />
+      <entry key="H4" value="141.8731222453438" />
+      <entry key="D1" value="405.41948559936577" />
+      <entry key="W1" value="528.1935452087409" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -200,30 +108,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.Field_Apps_Mobile_Automation [clean].executor": "Run",
-    "Maven.Field_Apps_Mobile_Automation [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Shell Script.start-appium-servers.sh (1).executor": "Run",
-    "Shell Script.start-appium-servers.sh.executor": "Run",
-    "TestNG./Users/poolakhajahussain/Documents/SeleniumJava-Automation/Field_Apps_Mobile_Automation/testng.xml.executor": "Run",
-    "TestNG.AndroidTestRunner.executor": "Run",
-    "TestNG.IOSTestRunner.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/poolakhajahussain/Documents/SeleniumJava-Automation/Field_Apps_Mobile_Automation/src/main/java/com/survey/Mobile_Drivers",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.Field_Apps_Mobile_Automation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Field_Apps_Mobile_Automation [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Shell Script.start-appium-servers.sh (1).executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.start-appium-servers.sh.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/poolakhajahussain/Documents/SeleniumJava-Automation/Field_Apps_Mobile_Automation/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AndroidTestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.IOSTestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/poolakhajahussain/Documents/SeleniumJava-Automation/Field_Apps_Mobile_Automation/src/main/java/com/survey/Mobile_Drivers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/survey/Mobile_Drivers" />

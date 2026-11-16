@@ -20,38 +20,6 @@ static{
     }
 }
 
-    public static String Android_getPlatformName() { return Android_ppty.getProperty("Android.PlatformName");
-    }
-
-    public static String Android_getAutomationName() {return Android_ppty.getProperty("Android.AutomationName");
-    }
-
-    public static String Android_getPlatformVersion() {return Android_ppty.getProperty("Android.PlatformVersion");
-    }
-
-    public static String Android_getDeviceName() {return Android_ppty.getProperty("Android.DeviceName");
-    }
-    public static String Android_getAppPath() {
-        String AndroidAppPath = System.getProperty("user.dir")+Android_ppty.getProperty("Android.AppPath");
-        System.out.println("APK Path: " + AndroidAppPath);
-        File apk = new File(AndroidAppPath);
-        System.out.println("Exists: " + apk.exists());
-        if(AndroidAppPath!=null)
-        {
-            return AndroidAppPath;
-
-        }else{
-            throw new RuntimeException("App Path not specified in the Configuration.properties file");
-        }
-    }
-
-
-    public static String Android_getAppPackage() {return Android_ppty.getProperty("Android.AppPackage");
-    }
-
-    public static String Android_getAppActivity() {return Android_ppty.getProperty("Android.AppActivity");
-    }
-
     public static String Android_getAppiumServerurl() {
         String url = Android_ppty.getProperty("Android.appium.server.url");
         if(url!=null)
@@ -61,6 +29,19 @@ static{
         }else{
             throw new RuntimeException("url not specified in the Configuration.properties file");
         }
+    }
+
+    public static String getString(String key) {
+        return Android_ppty.getProperty(key);
+    }
+
+//    public static int getInt(String key) {
+//        return Integer.parseInt(Android_ppty.getProperty(key));
+//    }
+    public static int getInt(String key) {
+        String value = Android_ppty.getProperty(key);
+        int result = value!=null?Integer.parseInt(value) : 0;
+        return result;
     }
 
 }

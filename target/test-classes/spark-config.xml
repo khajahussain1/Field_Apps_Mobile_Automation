@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+    <configuration>
+        <theme>standard</theme>
+        <encoding>UFT-8</encoding>
+        <enableTimeline>true</enableTimeline>
+        <protocol>https</protocol>
+        <documentTitle>Automation Report</documentTitle>
+        <reportName>Field Apps Test Results</reportName>
+        <testViewChartLocation>bottom</testViewChartLocation>
+        <enableOfflineMode>true</enableOfflineMode>
+        <enableCategoryView>true</enableCategoryView>
+        <enableAuthorView>true</enableAuthorView>
+        <enableException>true</enableException>
+        <enableTestRunnerLogsView>true</enableTestRunnerLogsView>
+        <!--<encoding>UTF-8</encoding>
+        <protocol>https</protocol>-->
+        <timelineEnabled>true</timelineEnabled>
+        <!--<scripts>
+            <![CDATA[
+            $(document).ready(function(){
+            }))))]
+        </scripts>-->
+    </configuration>
+</extentreports>
