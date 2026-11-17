@@ -3,17 +3,17 @@
 
     <test name="Android">
         <classes>
-            <class name="com.survey.TestRunner.AndroidTestRunner"/>
-            <class name="com.survey.TestRunner.IOSTestRunner"/>
+            <!--<class name="com.mobile.TestRunner.AndroidTestRunner"/>-->
+            <class name="com.mobile.TestRunner.IOSTestRunner"/>
         </classes>
     </test>
 
-    <!--<test name="IOS">
+    <test name="IOS">
         <classes>
-            &lt;!&ndash;<class name="com.survey.TestRunner.AndroidTestRunner"/>&ndash;&gt;
-            <class name="com.survey.TestRunner.IOSTestRunner"/>
+            <!--<class name="com.mobile.TestRunner.AndroidTestRunner"/>-->
+            <class name="com.mobile.TestRunner.IOSTestRunner"/>
         </classes>
-    </test>-->
+    </test>
 
 </suite>
 
