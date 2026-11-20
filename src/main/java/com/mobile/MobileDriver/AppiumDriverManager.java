@@ -13,7 +13,19 @@ public class AppiumDriverManager {
     private static final ThreadLocal<AppiumDriver> TLDriver = new ThreadLocal<>();
     public static Scenario scenario;
 
-    public static AppiumDriver InitializeDriver() throws MalformedURLException {
+    public static AppiumDriver InitializeDriver(String platform) throws MalformedURLException {
+        if(platform.toUpperCase().equalsIgnoreCase("ANDROID")) {
+            return AndroidDriverManager.createAndroidDriver();
+
+        }
+        if(platform.toUpperCase().equalsIgnoreCase("IOS")) {
+            return IOSDriverManager.CreateIOSDriver();
+        }
+
+        throw new RuntimeException("Platform not supported");
+    }
+
+   /* public static AppiumDriver InitializeDriver() throws MalformedURLException {
 //        service = new AppiumServiceBuilder().withIPAddress("127.0.0.1").usingPort(4723).withTimeout(Duration.ofSeconds(30)).build();
 //        service.start();
         String platform = ppty.getProperty("PLATFORM");
@@ -36,7 +48,7 @@ public class AppiumDriverManager {
         }
         return getDriver();
     }
-
+*/
     public static AppiumDriver getDriver() {
         AppiumDriver driver = TLDriver.get();
         if (driver == null) {

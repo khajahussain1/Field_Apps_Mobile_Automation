@@ -8,6 +8,7 @@ import io.cucumber.java.Scenario;
 
 import java.net.MalformedURLException;
 
+import static com.mobile.ConfigReader.ConfigReader.ppty;
 import static com.mobile.Utilities.MyService.getInstance;
 
 public class Hooks {
@@ -22,7 +23,8 @@ public class Hooks {
 
     @Before(order =0)
     public void beforeScenarioStart() throws MalformedURLException {
-        AppiumDriverManager.InitializeDriver();
+        String platform = ppty.getProperty("PLATFORM");
+        AppiumDriverManager.InitializeDriver(platform);
 //        AppiumDriver driver = AppiumDriverManager.InitializeDriver();
 //        AppiumDriverManager.setDriver(driver);
     }

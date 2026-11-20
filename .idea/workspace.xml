@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efca0ae7-dedc-41ba-a273-1d435065ecf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/device_properties/AndroidDevice.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/device_properties/AndroidDevice.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mobile/Appium_Interview_Quesions/Appium_Selenium_Grid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mobile/MobileDriver/AppiumDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mobile/MobileDriver/AppiumDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobile/stepDefination/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobile/stepDefination/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +29,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000470901318" />
-      <entry key="MS500" value="1.0342441228950323" />
-      <entry key="S2" value="1.4409224554247624" />
-      <entry key="S5" value="1.9495157443301399" />
-      <entry key="S10" value="2.52581414585653" />
-      <entry key="S30" value="3.339262699139149" />
-      <entry key="S60" value="3.6416858390302598" />
-      <entry key="M2" value="3.834671319745104" />
-      <entry key="M5" value="4.44692835081219" />
-      <entry key="M10" value="5.843825487991514" />
-      <entry key="M15" value="7.19162545302" />
-      <entry key="M30" value="10.416504376786882" />
-      <entry key="H1" value="17.76433177389345" />
-      <entry key="H2" value="40.66590538193253" />
-      <entry key="H4" value="96.9545263797021" />
-      <entry key="D1" value="340.3868724165227" />
-      <entry key="W1" value="462.0148893838156" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000001461329" />
+      <entry key="S2" value="1.0034773430827417" />
+      <entry key="S5" value="1.1070111155612137" />
+      <entry key="S10" value="1.3950072750010531" />
+      <entry key="S30" value="2.629108831138224" />
+      <entry key="S60" value="3.9023579208367924" />
+      <entry key="M2" value="5.090326948854705" />
+      <entry key="M5" value="6.122243104465147" />
+      <entry key="M10" value="6.548020950877272" />
+      <entry key="M15" value="6.756922196426208" />
+      <entry key="M30" value="7.667166515857863" />
+      <entry key="H1" value="11.672380924112824" />
+      <entry key="H2" value="27.01772014606645" />
+      <entry key="H4" value="73.79788622026507" />
+      <entry key="D1" value="329.45742754253996" />
+      <entry key="W1" value="471.04663655490424" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -51,37 +53,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="2.2010682611752964E-186" />
-      <entry key="S60" value="2.561955877515746E-93" />
-      <entry key="M2" value="8.760178933730874E-47" />
-      <entry key="M5" value="7.297887567964743E-19" />
-      <entry key="M10" value="1.4799755403991304E-9" />
-      <entry key="M15" value="1.8783090980035711E-6" />
-      <entry key="M30" value="0.0025040695374100633" />
-      <entry key="H1" value="0.12159459086623449" />
-      <entry key="H2" value="1.4730406982211883" />
-      <entry key="H4" value="7.87139108453501" />
-      <entry key="D1" value="51.64129798836268" />
-      <entry key="W1" value="77.34562769041945" />
+      <entry key="S30" value="6.857953587556177E-280" />
+      <entry key="S60" value="4.522224942917147E-140" />
+      <entry key="M2" value="3.680469597735583E-70" />
+      <entry key="M5" value="3.2550170765198446E-28" />
+      <entry key="M10" value="3.1255941787381314E-14" />
+      <entry key="M15" value="1.4351118916640173E-9" />
+      <entry key="M30" value="6.921587850856599E-5" />
+      <entry key="H1" value="0.020215939585084573" />
+      <entry key="H2" value="0.6006266300219746" />
+      <entry key="H4" value="5.026276887904309" />
+      <entry key="D1" value="47.921415315115745" />
+      <entry key="W1" value="76.52398044608124" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592641638752435" />
-      <entry key="MS500" value="1.0255831723666171" />
-      <entry key="S2" value="1.437630620252327" />
-      <entry key="S5" value="1.9476292312151737" />
-      <entry key="S10" value="2.5245157882967586" />
-      <entry key="S30" value="3.338651221956432" />
-      <entry key="S60" value="3.6413457872274795" />
-      <entry key="M2" value="3.834488831939485" />
-      <entry key="M5" value="4.446828118862882" />
-      <entry key="M10" value="5.8437431998862275" />
-      <entry key="M15" value="7.191549664466622" />
-      <entry key="M30" value="10.418799071336514" />
-      <entry key="H1" value="17.884696995586033" />
-      <entry key="H2" value="42.135237979413155" />
-      <entry key="H4" value="104.81912538809618" />
-      <entry key="D1" value="392.0226762216331" />
-      <entry key="W1" value="539.359398604527" />
+      <entry key="MS100" value="0.04298568181686699" />
+      <entry key="MS500" value="0.532923368100927" />
+      <entry key="S2" value="0.8572705543404344" />
+      <entry key="S5" value="1.0375947063715671" />
+      <entry key="S10" value="1.3443687539958984" />
+      <entry key="S30" value="2.5781809648618834" />
+      <entry key="S60" value="3.854391519316825" />
+      <entry key="M2" value="5.054241542715503" />
+      <entry key="M5" value="6.103214349891499" />
+      <entry key="M10" value="6.537516396715795" />
+      <entry key="M15" value="6.749602684432788" />
+      <entry key="M30" value="7.663030415361859" />
+      <entry key="H1" value="11.689602180984135" />
+      <entry key="H2" value="27.614949529976258" />
+      <entry key="H4" value="78.81866625910646" />
+      <entry key="D1" value="377.373507526291" />
+      <entry key="W1" value="547.5694752699918" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -99,6 +101,7 @@
   "keyToString": {
     "Docker.Dockerfile.executor": "Run",
     "Docker.docker-compose.yml.appium: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.firefox: Compose Deployment.executor": "Run",
     "Maven.Field_Apps_Mobile_Automation [clean].executor": "Run",
     "Maven.Field_Apps_Mobile_Automation [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -118,7 +121,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -137,53 +141,21 @@
       <recent name="com.survey.Utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/poolakhajahussain/Documents/SeleniumJava-Automation/Field_Apps_Mobile_Automation/testng.xml">
-    <configuration name="Field_Apps_Mobile_Automation [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="install" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
+  <component name="RunManager" selected="Shell Script.start-appium-servers.sh">
+    <configuration name="start-appium-servers.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/start-appium-servers.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
       <method v="2" />
-    </configuration>
-    <configuration name="IOSTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Field_Apps_Mobile_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mobile.TestRunner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.survey.TestRunner" />
-      <option name="MAIN_CLASS_NAME" value="com.mobile.TestRunner.IOSTestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="/Users/poolakhajahussain/Documents/SeleniumJava-Automation/Field_Apps_Mobile_Automation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Field_Apps_Mobile_Automation" />
@@ -216,13 +188,26 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.firefox: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="firefox" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.start-appium-servers.sh" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml.firefox: Compose Deployment" />
         <item itemvalue="TestNG./Users/poolakhajahussain/Documents/SeleniumJava-Automation/Field_Apps_Mobile_Automation/testng.xml" />
         <item itemvalue="Docker.docker-compose.yml.appium: Compose Deployment" />
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="TestNG.IOSTestRunner" />
-        <item itemvalue="Maven.Field_Apps_Mobile_Automation [install]" />
       </list>
     </recent_temporary>
   </component>
